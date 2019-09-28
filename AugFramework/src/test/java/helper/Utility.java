@@ -83,9 +83,9 @@ public class Utility {
 		// use ExpectedConditions// use assertion
 	}
 	
-	public void handleFrame()
+	public void handleFrame(WebDriver driver,int index)
 	{
-		// use ExpectedConditions
+		new WebDriverWait(driver, 30).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(index));
 	}
 	
 	
