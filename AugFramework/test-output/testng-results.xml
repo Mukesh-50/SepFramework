@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16016" started-at="2019-09-28T03:08:41Z" finished-at="2019-09-28T03:08:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16016" started-at="2019-09-28T03:08:41Z" finished-at="2019-09-28T03:08:57Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:testcases.LoginTest@29ee9faa]" name="setupReport" is-config="true" duration-ms="474" started-at="2019-09-28T08:38:41Z" finished-at="2019-09-28T08:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="setupBrowsers()[pri:0, instance:testcases.LoginTest@29ee9faa]" name="setupBrowsers" is-config="true" duration-ms="3905" started-at="2019-09-28T08:38:41Z" finished-at="2019-09-28T08:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowsers -->
+        <test-method status="PASS" signature="loginToHRM()[pri:0, instance:testcases.LoginTest@29ee9faa]" name="loginToHRM" duration-ms="10603" started-at="2019-09-28T08:38:45Z" finished-at="2019-09-28T08:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHRM -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testcases.LoginTest@29ee9faa]" name="appendReport" is-config="true" duration-ms="858" started-at="2019-09-28T08:38:56Z" finished-at="2019-09-28T08:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToHRM status=SUCCESS method=LoginTest.loginToHRM()[pri:0, instance:testcases.LoginTest@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="closeSessions()[pri:0, instance:testcases.LoginTest@29ee9faa]" name="closeSessions" is-config="true" duration-ms="594" started-at="2019-09-28T08:38:57Z" finished-at="2019-09-28T08:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSessions -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
