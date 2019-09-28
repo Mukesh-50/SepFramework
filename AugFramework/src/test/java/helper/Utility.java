@@ -76,7 +76,6 @@ public class Utility {
 	public void dismissAlert(WebDriver driver)
 	{
 		//Method content by PradeepSV to Commit from Local
-		//To commit from Desktop - cmd - GitBash
 		
 		new WebDriverWait(driver, 30).until(ExpectedConditions.alertIsPresent()).dismiss();
 	}
@@ -84,6 +83,7 @@ public class Utility {
 	public void verifyAlertMsg()
 	{
 		// use ExpectedConditions// use assertion
+		//To commit from Desktop - cmd - GitBash
 	}
 	
 	public void handleFrame(WebDriver driver,int index)
