@@ -68,9 +68,9 @@ public class Utility {
 	}
 	
 	
-	public void acceptAlert()
+	public void acceptAlert(WebDriver driver)
 	{
-		// use ExpectedConditions
+		new WebDriverWait(driver, 30).until(ExpectedConditions.alertIsPresent()).accept();
 	}
 	
 	public void dismissAlert()
