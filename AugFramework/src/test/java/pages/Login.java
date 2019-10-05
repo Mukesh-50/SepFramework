@@ -34,7 +34,7 @@ public class Login {
 	public void enterUserName(String uname)
 	{
 		System.out.println("LOG:INFO Username Entered");
-		Utility.waitForWebElement(driver, username).sendKeys("Admin");
+		Utility.waitForWebElement(driver, username).sendKeys(uname);
 	}
 	
 	public void enterPassword(String pass)
@@ -59,9 +59,9 @@ public class Login {
 	
 	
 	public void clickLoginButton()
-	{
+	{	
+		Utility.waitForWebElement(driver, loginButon).click();
 		System.out.println("LOG:INFO Clicked on login button");
-		Utility.waitForWebElement(driver, loginButon);
 	}
 	
 	

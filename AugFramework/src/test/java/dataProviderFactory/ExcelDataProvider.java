@@ -47,6 +47,15 @@ public class ExcelDataProvider {
 	}
 	
 	
+	public int getRows(String sheetName)
+	{
+			return wb.getSheet(sheetName).getPhysicalNumberOfRows();
+	}
 	
+
+	public int getColumns(String sheetName)
+	{
+			return wb.getSheet(sheetName).getRow(0).getPhysicalNumberOfCells();
+	}
 
 }
