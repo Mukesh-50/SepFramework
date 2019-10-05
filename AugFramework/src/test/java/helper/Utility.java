@@ -73,14 +73,17 @@ public class Utility {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.alertIsPresent()).accept();
 	}
 	
-	public void dismissAlert()
+	public void dismissAlert(WebDriver driver)
 	{
-		// use ExpectedConditions
+		//Method content by PradeepSV to Commit from Local
+		
+		new WebDriverWait(driver, 30).until(ExpectedConditions.alertIsPresent()).dismiss();
 	}
 	
 	public void verifyAlertMsg()
 	{
 		// use ExpectedConditions// use assertion
+		//To commit from Desktop - cmd - GitBash
 	}
 	
 	public void handleFrame(WebDriver driver,int index)
