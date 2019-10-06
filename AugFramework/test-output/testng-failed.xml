@@ -3,20 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="testcases.LoginTestWithDataProvider2"/>
+      <class name="testcases.SeleniumGridDemo"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="testcases.LoginTestWithDataProvider2">
-        <methods>
-          <include name="setupBrowsers"/>
-          <include name="loginToHRM" invocation-numbers="1 2"/>
-          <include name="closeSessions"/>
-          <include name="appendReport"/>
-          <include name="setupReport"/>
-        </methods>
-      </class> <!-- testcases.LoginTestWithDataProvider2 -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

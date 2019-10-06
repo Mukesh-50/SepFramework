@@ -52,16 +52,16 @@
 				
 					<systemPropertyVariables>
 					
-					<xmlfiles>${xmlfiles}</xmlfiles>
-					<!-- <url>${url}</url>
+					<!-- <xmlfiles>${xmlfiles}</xmlfiles> -->
+					<url>${url}</url>
 					<username>${username}</username>
-					<password>${password}</password> -->
+					<password>${password}</password> 
 					
 					</systemPropertyVariables>
 				
 					<suiteXmlFiles>
 						<suiteXmlFile>XMLFiles\${xmlfiles}</suiteXmlFile>
-					</suiteXmlFiles>
+ 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>
