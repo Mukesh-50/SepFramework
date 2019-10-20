@@ -5,6 +5,31 @@
   <version>0.0.1-SNAPSHOT</version>
   <description>Aug Framework for UI Test</description>
   	<dependencies>
+  	
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.3.0</version>
+    <scope>test</scope>
+</dependency>
+  	
+
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>4.7.1</version>
+    <scope>test</scope>
+</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>4.7.1</version>
+</dependency>
+	
+	
 
 
 		<dependency>
@@ -50,9 +75,16 @@
 				<version>3.0.0-M3</version>
 				<configuration>
 				
-					<systemPropertyVariables>
+				
+						<includes>
+						
+							<include>**/*Runner.java</include>
+							
+						</includes>
+				
+					<!-- <systemPropertyVariables>
 					
-					<!-- <xmlfiles>${xmlfiles}</xmlfiles> -->
+					<xmlfiles>${xmlfiles}</xmlfiles>
 					<url>${url}</url>
 					<username>${username}</username>
 					<password>${password}</password> 
@@ -61,7 +93,7 @@
 				
 					<suiteXmlFiles>
 						<suiteXmlFile>XMLFiles\${xmlfiles}</suiteXmlFile>
- 					</suiteXmlFiles>
+ 					</suiteXmlFiles> -->
 				</configuration>
 			</plugin>
 		</plugins>
